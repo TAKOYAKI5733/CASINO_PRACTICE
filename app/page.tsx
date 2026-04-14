@@ -29,7 +29,7 @@ export default function Home(){
 
   return(
     <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-6 bg-slate-50">
-      <h1 className="text-3xl font-bold text-slate-800">カジノアプリ開発テスト</h1>
+      <h1 className="text-3xl font-bold text-slate-800">データベース関連のテストと練習</h1>
 
       <div className="flex w-full max-w-sm items-center space-x-2 bg-white p-4 rounded-xl shadow-sm">
         <Input placeholder="メッセージを入力" value={text} onChange={(e) => setText(e.target.value)} disabled={loading}></Input>
